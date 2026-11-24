@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170a6004acaa2c543b8d5e1ecba593a7, type: 3}
+  m_Name: Exhaustion
+  m_EditorClassIdentifier: CharacterStats::CharacterStats.PoolDefinition
+  id: 
+  displayName: Exhaustion
+  maxStat: {fileID: 11400000, guid: d426b4419e694416bb4013273fe4e25d, type: 2}
+  restsAt: 1
+  regenStat: {fileID: 11400000, guid: 3abb476820bb480386f6a2c14edbd7d8, type: 2}
+  regenDelayStat: {fileID: 0}
+  canGoNegative: 0
+  overdrawInto: {fileID: 0}
+  overdrawConversionStat: {fileID: 0}
+  whenOverdrawTargetFull: 0
+  costMultiplierStat: {fileID: 0}
+  overflowInto: {fileID: 11400000, guid: 28fd5e0ff86240c3b4cdc320291dfc49, type: 2}
+  overflowConversionStat: {fileID: 11400000, guid: 05e904fb05664a1987122c6ec1260276, type: 2}
+  overflowDrains: 1
+  fullReleaseFraction: 0.8
+  fullReleaseStat: {fileID: 0}
+  reservedBy: {fileID: 0}
+  tagWhileFull: {fileID: 11400000, guid: f724f942e15343da9970789e31aafa55, type: 2}
+  tagWhileOverdrawn: {fileID: 0}

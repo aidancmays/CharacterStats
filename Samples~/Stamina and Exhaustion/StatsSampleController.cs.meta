@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 97349196ba424fefb4efd673c9e5ac86
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - profile: {fileID: 11400000, guid: f0e47a032b7640379e3787a02121bdbd, type: 2}
+  - stamina: {fileID: 11400000, guid: 749aab9262fd4c56ab3bdfc22a213606, type: 2}
+  - health: {fileID: 11400000, guid: 28fd5e0ff86240c3b4cdc320291dfc49, type: 2}
+  - staminaRegen: {fileID: 11400000, guid: 36c51c5f238441938ecb0ca4e91865fb, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

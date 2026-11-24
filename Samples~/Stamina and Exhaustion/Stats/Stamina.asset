@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170a6004acaa2c543b8d5e1ecba593a7, type: 3}
+  m_Name: Stamina
+  m_EditorClassIdentifier: CharacterStats::CharacterStats.PoolDefinition
+  id: 
+  displayName: Stamina
+  maxStat: {fileID: 11400000, guid: f29303e453144cdda56e7dfbfd4bf607, type: 2}
+  restsAt: 0
+  regenStat: {fileID: 11400000, guid: 36c51c5f238441938ecb0ca4e91865fb, type: 2}
+  regenDelayStat: {fileID: 11400000, guid: b38fa9db66654a3580072d5410cf7398, type: 2}
+  canGoNegative: 1
+  overdrawInto: {fileID: 11400000, guid: 89ff2568eb3549e9bfd609e6d47bbc31, type: 2}
+  overdrawConversionStat: {fileID: 11400000, guid: e1101babd00e483daa6e805ed0d3014c, type: 2}
+  whenOverdrawTargetFull: 2
+  costMultiplierStat: {fileID: 11400000, guid: 7ba8207a924e49a7a6d80920f5106e7e, type: 2}
+  overflowInto: {fileID: 0}
+  overflowConversionStat: {fileID: 0}
+  overflowDrains: 1
+  fullReleaseFraction: 0.9
+  fullReleaseStat: {fileID: 0}
+  reservedBy: {fileID: 11400000, guid: 89ff2568eb3549e9bfd609e6d47bbc31, type: 2}
+  tagWhileFull: {fileID: 0}
+  tagWhileOverdrawn: {fileID: 11400000, guid: 92a9f8883c2346848672d8079e7d999e, type: 2}

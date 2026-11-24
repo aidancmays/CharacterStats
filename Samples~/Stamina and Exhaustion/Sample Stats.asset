@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db9e3f0d35f84dd48bab5ab2f66ccf71, type: 3}
+  m_Name: Sample Stats
+  m_EditorClassIdentifier: CharacterStats::CharacterStats.StatProfile
+  baseValues:
+  - stat: {fileID: 11400000, guid: f29303e453144cdda56e7dfbfd4bf607, type: 2}
+    value: 100
+  - stat: {fileID: 11400000, guid: 36c51c5f238441938ecb0ca4e91865fb, type: 2}
+    value: 30
+  - stat: {fileID: 11400000, guid: b38fa9db66654a3580072d5410cf7398, type: 2}
+    value: 0.8
+  - stat: {fileID: 11400000, guid: 7ba8207a924e49a7a6d80920f5106e7e, type: 2}
+    value: 1
+  - stat: {fileID: 11400000, guid: d426b4419e694416bb4013273fe4e25d, type: 2}
+    value: 0
+  - stat: {fileID: 11400000, guid: 3abb476820bb480386f6a2c14edbd7d8, type: 2}
+    value: 1
+  - stat: {fileID: 11400000, guid: e1101babd00e483daa6e805ed0d3014c, type: 2}
+    value: 1
+  - stat: {fileID: 11400000, guid: 05e904fb05664a1987122c6ec1260276, type: 2}
+    value: 1
+  - stat: {fileID: 11400000, guid: eeb5e926023740e58c71d9164e82f7fd, type: 2}
+    value: 100
+  pools:
+  - {fileID: 11400000, guid: 89ff2568eb3549e9bfd609e6d47bbc31, type: 2}
+  - {fileID: 11400000, guid: 749aab9262fd4c56ab3bdfc22a213606, type: 2}
+  - {fileID: 11400000, guid: 28fd5e0ff86240c3b4cdc320291dfc49, type: 2}
+  innateModifiers:
+  - stat: {fileID: 11400000, guid: d426b4419e694416bb4013273fe4e25d, type: 2}
+    op: 0
+    value: 1
+    scaledBy: {fileID: 11400000, guid: f29303e453144cdda56e7dfbfd4bf607, type: 2}
+    priority: 0
+    conditions: []

@@ -1,0 +1,29 @@
+{
+  "name": "com.aidancmays.character-stats",
+  "version": "0.1.0",
+  "displayName": "Character Stats",
+  "description": "Stats and resource pools for RPG characters: stat assets with inheritance, modifiers (flat, percent, multiply, override, scaled by another stat, conditional on gameplay tags), per-archetype profiles, and pools such as stamina, health and exhaustion with regeneration, regen delay, overdraw into another pool, overflow, reserved capacity and tags while full. Save snapshots and a debug panel included.",
+  "unity": "6000.3",
+  "documentationUrl": "",
+  "keywords": [
+    "rpg",
+    "stats",
+    "attributes",
+    "modifiers",
+    "stamina",
+    "health"
+  ],
+  "author": {
+    "name": "Aidan"
+  },
+  "dependencies": {
+    "com.aidancmays.gameplay-tags": "0.1.0"
+  },
+  "samples": [
+    {
+      "displayName": "Stamina and Exhaustion",
+      "description": "Health, stamina and exhaustion pools where overspending stamina builds exhaustion that eats the stamina bar and then hurts, with buttons to try it.",
+      "path": "Samples~/Stamina and Exhaustion"
+    }
+  ]
+}
